@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="flex container">
+            <a id="logo" href="index.html">Tamim Real Estate Co</a>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html" class="active">Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="auth">
+        <div class="container auth-container">
+            <h2>Signup</h2>
+            <form action="#" method="POST" class="auth-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+                <button class="rounded" type="submit">Signup</button>
+                <p class="auth-switch">Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
